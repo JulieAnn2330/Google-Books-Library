@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootswatch/dis/lumen/bootstrap.min.css';
+import "bootswatch/dist/lumen/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Search from './pages/Search';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Container } from "../components/Grid";
-import { BookList, BookListItem } from "../components/BookList";
+import { BookList, BookListItem } from "../components/BookList/BookList";
 import API from "../utils/API";
 
 class Saved extends Component {
