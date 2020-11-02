@@ -25,7 +25,7 @@ deleteSavedBook = (event, googleId) => {
     event.preventDefault();
     API.deleteSavedBook(googleId)
     .then(res => this.loadSavedBooks())
-    .catch(errr => console.log(err));
+    .catch(err => console.log(err));
 };
 
 render() {
