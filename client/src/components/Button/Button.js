@@ -2,7 +2,7 @@ import React from 'react';
 
 function Button({ onClick, children }) {
     return (
-        <button onCllick={onClick} className="btn btn-warning">
+        <button onClick={onClick} className="btn btn-warning">
             {children}
         </button>
     );
