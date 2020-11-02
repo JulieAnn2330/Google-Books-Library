@@ -37,7 +37,7 @@ export function BookListItem({
         }
 
         <h4 className="font-weight-bold">{title}</h4>
-        <h5>by {authors.lengtj > 1 ? (authors.reduce((prev, curr) => [prev, ", ", curr])) : authors[0]}</h5>
+        <h5>by {authors.length > 1 ? (authors.reduce((prev, curr) => [prev, ", ", curr])) : authors[0]}</h5>
         <Row>
             <div className="col-sm-12 col-md-auto text-center">
                 <img src={thumbnail} alt={title} className="mt-1 mb-2" />

@@ -5,7 +5,7 @@ const db = require("../models");
 
 router.get("/books", (req, res) => {
     axios
-        .get("https://www.googleapis.com/books/v1/volumes", { params: req.query})
+        .get("https://www.googleapis.com/books/v1/volumes" + { params: req.query} + "AIzaSyASRmrC0dEXweK51vWdPwTPVdnFRcjS03g")
         .then(({ data: {items } }) => res.json(items))
         .catch(err => res.status(422).json(err));
 });

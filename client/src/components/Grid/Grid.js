@@ -9,7 +9,5 @@ export function Row({children}) {
 }
 
 export function Col({children}) {
-    return(
-        <div className="col">{children}</div>
-    )
+    return <div className="col">{children}</div>
 }
