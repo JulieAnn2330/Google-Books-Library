@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export function Container({children}) {
     return <div className="container">{children}</div>
@@ -9,5 +9,7 @@ export function Row({children}) {
 }
 
 export function Col({children}) {
-    return <div className="col">{children}</div>
+    return (
+        <div className="col">{children}</div>
+    )
 }
