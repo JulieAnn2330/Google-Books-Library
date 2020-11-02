@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Container } from "../components/Grid";
+import { Row, Container } from "../components/Grid/Grid";
 import Button from "../components/Button/Button";
 import { BookList, BookListItem } from "../components/BookList/BookList";
 import API from "../utils/API";
