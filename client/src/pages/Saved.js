@@ -44,7 +44,7 @@ class Saved extends Component {
           <div className="col border border-rounded p-3 mb-4">
             <h4>Saved Books</h4>
             {!this.state.savedBooks.length ? (
-              <h6 className="text-center">No books to display currently</h6>
+              <h6 className="text-center">No books to currently display!</h6>
             ) : (
                 <BookList>
                   {this.state.savedBooks.map(book => {
@@ -57,6 +57,7 @@ class Saved extends Component {
                         description={book.description}
                         thumbnail={book.thumbnail}
                         href={book.href}
+                        pageCount={book.pageCount}
                         date={API.getDate(book._id)}
                         saved={true}
                         clickEvent={this.deleteSavedBook}

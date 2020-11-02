@@ -70,9 +70,9 @@ class Search extends Component {
       .catch(err => console.log(err));
   };
 
-  handleSave = (event, googleId, title, authors, description, href, thumbnail) => {
+  handleSave = (event, googleId, title, authors, description, href, pageCount, thumbnail) => {
     event.preventDefault();
-    API.saveBook({ googleId, title, authors, description, href, thumbnail })
+    API.saveBook({ googleId, title, authors, description, href, pageCount, thumbnail })
       .then(res => this.loadSavedBooks());
   };
 
@@ -81,13 +81,13 @@ class Search extends Component {
       <Container>
         <Row>
           <div className="col rounded text-center bg-info mt-4 p-4">
-            <h1>Library Builder</h1>
-            <h4>Search for and save books of interest!</h4>
+            <h1>Google Books Library</h1>
+            <h4>Find your next great read!</h4>
           </div>
         </Row>
         <Row>
           <div className="col rounded bg-light mb-4 mt-4 p-4">
-            <h4>Book Search</h4>
+            <h4>Search for Books</h4>
             <form>
               <div className="form-group">
                 <label htmlFor="bookSearch">Book</label>
@@ -99,7 +99,7 @@ class Search extends Component {
                   value={this.state.bookSearch}
                   onChange={this.handleInputChange} />
               </div>
-              <Button onClick={this.handleFormSubmit}>Search</Button>
+              <Button onClick={this.handleFormSubmit}>Search for Books</Button>
               <img className="ml-3" src="https://books.google.com/googlebooks/images/poweredby.png" alt="Powered by Google" />
             </form>
           </div>
@@ -107,12 +107,12 @@ class Search extends Component {
         <Row>
           <div className="col border border-rounded p-3 mb-4">
             {this.state.searched === "" ? (
-            <h4>Results</h4>
+            <h4>Search Results</h4>
             ) : (
-              <h4>Results for {this.state.searched}</h4>
+              <h4>Search Results for {this.state.searched}</h4>
             )}
             {!this.state.books.length ? (
-              <h6 className="text-center">No books to display currently</h6>
+              <h6 className="text-center">No books matched your search! Try again!</h6>
             ) : (
                 <BookList>
                   {this.state.books.map(book => {
@@ -120,11 +120,12 @@ class Search extends Component {
                       <BookListItem
                         key={book.volumeInfo.infoLink}
                         googleId={book.id}
-                        title={book.volumeInfo.title || "Title Unavailable"}
-                        authors={book.volumeInfo.authors || ["Unknown Author"]}
+                        title={book.volumeInfo.title || "Title Not Found"}
+                        authors={book.volumeInfo.authors || ["Author Not Found"]}
                         description={book.volumeInfo.description || "No description available"}
                         thumbnail={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : "img/placeholder.png"}
                         href={book.volumeInfo.infoLink}
+                        pageCount={book.volumeInfo.pageCount}
                         saved={this.checkIfSaved(book.id)}
                         clickEvent={this.checkIfSaved(book.id)
                           ? this.deleteSavedBook

@@ -14,6 +14,7 @@ export function BookListItem({
   description,
   thumbnail,
   href,
+  pageCount,
   date,
   clickEvent,
   saved,
@@ -28,12 +29,12 @@ export function BookListItem({
           {!saved ? (
             <button
               className="btn btn-success"
-              onClick={event => clickEvent(event, googleId, title, authors, description, href, thumbnail)}>Save</button>
+              onClick={event => clickEvent(event, googleId, title, authors, description, href, pageCount, thumbnail)}>Save Book</button>
           ) : (
               <button className="btn btn-danger" onClick={event => clickEvent(event, googleId)}>Unsave</button>
             )
           }
-          <a className="btn btn-primary ml-2 mr-2" href={href} target="_blank" rel="noopener noreferrer">View</a>
+          <a className="btn btn-primary ml-2 mr-2" href={href} target="_blank" rel="noopener noreferrer">View Book</a>
         </div>
       }
 
@@ -54,7 +55,7 @@ export function BookListItem({
           {!saved ? (
             <button
               className="btn btn-success btn-block"
-              onClick={event => clickEvent(event, googleId, title, authors, description, href, thumbnail)}>Save</button>
+              onClick={event => clickEvent(event, googleId, title, authors, description, href, pageCount, thumbnail)}>Save</button>
           ) : (
               <button className="btn btn-danger btn-block" onClick={event => clickEvent(event, googleId)}>Unsave</button>
             )
