@@ -1,0 +1,25 @@
+{
+  "name": "google-books-library",
+  "version": "1.0.0",
+  "description": "Google Books Library",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieAnn2330/Google-Books-Library.git"
+  },
+  "author": "Julie Ann Schaub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulieAnn2330/Google-Books-Library/issues"
+  },
+  "homepage": "https://github.com/JulieAnn2330/Google-Books-Library#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "path": "^0.12.7"
+  }
+}
