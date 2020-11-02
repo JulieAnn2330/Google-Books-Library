@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/JulieAnn2330/Google-Books-Library#readme",
   "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
     "express": "^4.17.1",
+    "moment": "^2.29.1",
     "mongoose": "^5.10.11",
     "path": "^0.12.7"
   }
