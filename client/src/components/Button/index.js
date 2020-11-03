@@ -3,7 +3,7 @@ import './button.css'
 
 function Button({ onClick, children }) {
     return (
-        <button onClick={onClick} className="btn btn-warning" className="button">
+        <button onClick={onClick} className="button">
             {children}
         </button>
     );

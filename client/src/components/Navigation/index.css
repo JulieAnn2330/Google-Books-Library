@@ -1,8 +1,8 @@
-.navbar {
+.nav-item {
     background-color: rgb(29,29,92);
     margin-left: 5px;
 }
 
-.navText {
-    color: white;
+.nav-link {
+    color: white !important;
 }

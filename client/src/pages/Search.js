@@ -79,13 +79,13 @@ class Search extends Component {
     return (
       <Container className="container">
         <Row>
-          <div className="col rounded text-center bg-info mt-4 p-4" className="container">
+          <div className="col rounded text-center bg-lightgray mt-4 p-4">
             <h1 className="library">Google Books Library</h1>
             <h4 className="library">Find your next great read!</h4>
           </div>
         </Row>
         <Row>
-          <div className="col rounded bg-light mb-4 mt-4 p-4" className="container">
+          <div className="col rounded bg-lightgray mb-4 mt-4 p-4">
             <h4>Search for Books</h4>
             <form>
               <div className="form-group">

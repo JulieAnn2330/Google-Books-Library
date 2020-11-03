@@ -7,11 +7,11 @@ function Navigation() {
       <a className="navbar-brand" href="/">Google Books Library</a>
 
       <ul className="navbar-nav mr-auto">
-        <li className="nav-item" className="navbar">
-          <a className="nav-link" href="/" className="navText">Search for Books</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/">Search for Books</a>
         </li>
-        <li className="nav-item" className="navbar">
-          <a className="nav-link" href="/saved" className="navText">View Saved Books</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/saved">View Saved Books</a>
         </li>
       </ul>
 
