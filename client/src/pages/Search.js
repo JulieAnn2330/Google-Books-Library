@@ -89,7 +89,7 @@ class Search extends Component {
             <h4>Search for Books</h4>
             <form>
               <div className="form-group">
-                <label htmlFor="bookSearch" className="searchTitle">Book or Author</label>
+                <label htmlFor="bookSearch" className="searchTitle">Name of Book or Author</label>
                 <input
                   type="text"
                   className="form-control"
@@ -99,7 +99,6 @@ class Search extends Component {
                   onChange={this.handleInputChange} />
               </div>
               <Button onClick={this.handleFormSubmit}>Search for Books</Button>
-              <img className="ml-3" src="https://books.google.com/googlebooks/images/poweredby.png" alt="Powered by Google" />
             </form>
           </div>
         </Row>

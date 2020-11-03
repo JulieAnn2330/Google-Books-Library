@@ -29,12 +29,12 @@ export function BookListItem({
           {!saved ? (
             <button
               className="btn btn-success"
-              onClick={event => clickEvent(event, googleId, title, authors, description, href, pageCount, thumbnail)}>Save Book</button>
+              onClick={event => clickEvent(event, googleId, title, authors, description, href, pageCount, thumbnail)}>Save to Library</button>
           ) : (
-              <button className="btn btn-danger" onClick={event => clickEvent(event, googleId)}>Unsave</button>
+              <button className="btn btn-danger" onClick={event => clickEvent(event, googleId)}>Remove from Library</button>
             )
           }
-          <a className="btn btn-primary ml-2 mr-2" href={href} target="_blank" rel="noopener noreferrer">View Book</a>
+          <a className="btn btn-primary ml-2 mr-2" href={href} target="_blank" rel="noopener noreferrer">View Book Info</a>
         </div>
       }
 

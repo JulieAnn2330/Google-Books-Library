@@ -37,7 +37,7 @@ class Saved extends Component {
       <Container>
         <Row>
           <div className="col rounded text-center bg-dark text-white mt-4 mb-4 p-4">
-            <h1>Saved Books</h1>
+            <h1>Saved Library</h1>
           </div>
         </Row>
         <Row>
