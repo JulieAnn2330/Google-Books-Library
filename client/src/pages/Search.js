@@ -77,9 +77,9 @@ class Search extends Component {
 
   render() {
     return (
-      <Container className="container">
+      <Container>
         <Row>
-          <div className="col rounded text-center bg-lightgray mt-4 p-4">
+          <div className="col rounded text-center bg-lightgray">
             <h1 className="library">Google Books Library</h1>
             <h4 className="library">Find your next great read!</h4>
           </div>
