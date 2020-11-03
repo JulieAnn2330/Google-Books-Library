@@ -36,12 +36,12 @@ class Saved extends Component {
     return (
       <Container>
         <Row>
-          <div className="col rounded text-center bg-success mt-4 mb-4 p-4">
+          <div className="col rounded text-center bg-dark text-white mt-4 mb-4 p-4">
             <h1>Saved Books</h1>
           </div>
         </Row>
         <Row>
-          <div className="col border border-rounded p-3 mb-4">
+          <div className="col border border-rounded p-3 mb-4" >
             <h4>Saved Books</h4>
             {!this.state.savedBooks.length ? (
               <h6 className="text-center">No books to currently display!</h6>

@@ -24,7 +24,7 @@ const bookSchema = new Schema({
     unique: true
   },
   pageCount: {
-    type: Integer,
+    type: Number,
     required: true,
     unique: false
   },

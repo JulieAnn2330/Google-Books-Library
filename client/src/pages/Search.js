@@ -20,7 +20,6 @@ class Search extends Component {
   }
 
   checkIfSaved = googleId => {
-    // Cannot use a forEach here because a return statement won't break the loop
     for (let i in this.state.savedBooks) {
       if (this.state.savedBooks[i].googleId === googleId) return true;
     }
@@ -78,19 +77,19 @@ class Search extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="container">
         <Row>
-          <div className="col rounded text-center bg-info mt-4 p-4">
-            <h1>Google Books Library</h1>
-            <h4>Find your next great read!</h4>
+          <div className="col rounded text-center bg-info mt-4 p-4" className="container">
+            <h1 className="library">Google Books Library</h1>
+            <h4 className="library">Find your next great read!</h4>
           </div>
         </Row>
         <Row>
-          <div className="col rounded bg-light mb-4 mt-4 p-4">
+          <div className="col rounded bg-light mb-4 mt-4 p-4" className="container">
             <h4>Search for Books</h4>
             <form>
               <div className="form-group">
-                <label htmlFor="bookSearch">Book</label>
+                <label htmlFor="bookSearch" className="searchTitle">Book or Author</label>
                 <input
                   type="text"
                   className="form-control"

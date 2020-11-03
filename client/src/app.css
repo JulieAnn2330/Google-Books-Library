@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+html {
+    background-image: url('./books.jpg');
+ }
+
+.container {
+    background-color: lightgray;
+    font-family: 'Lato', sans-serif;
+}
+
+.library {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+}
+
+.searchTitle {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.saved {
+    background-color: slategray;
+    font-family: 'Lato', sans-serif;
+}
+
