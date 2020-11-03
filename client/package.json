@@ -1,7 +1,7 @@
 {
   "name": "google-books-library",
   "version": "0.1.0",
-  "description": "Google Books Lbirarty",
+  "description": "Google Books Library",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {

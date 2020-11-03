@@ -29,11 +29,12 @@
   "homepage": "https://github.com/JulieAnn2330/Google-Books-Library#readme",
   "dependencies": {
     "axios": "^0.21.0",
-    "bootswatch": "^4.5.2",
     "bootstrap": "^4.5.3",
+    "bootswatch": "^4.5.2",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "moment": "^2.29.1",
+    "mongodb": "^3.6.2",
     "mongoose": "^5.10.11",
     "path": "^0.12.7",
     "react": "^16.13.1",
