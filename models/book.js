@@ -23,6 +23,11 @@ const bookSchema = new Schema({
     required: true,
     unique: true
   },
+  pageCount: {
+    type: Integer,
+    required: true,
+    unique: false
+  },
   thumbnail: {
     type: String,
     required: true
