@@ -26,7 +26,16 @@
 <hr color= "slateblue" noshade>
 
 <h3 id='description'>Description of Project</h3>
-<p>This interactive application allows the user to create a library of saved books using the GoogleBooks API call. Users can view the books on the GoogleBooks site, save books to their library and remove books from their library. This was my final homework project for the University of Kansas Coding Boot Camp. This application gives users a place to store books for future purchasing or reading. I learned a lot about how React works with a back-end server and a Mongoose database. Joining the three different technologies  was a very complicated process, but one I accomplished. This project stands out because of the styling and intuitiveness of the site. This project features search and save functions.</p><br>
+<p>This interactive application allows the user to create a library of saved books using the GoogleBooks API call. Users can view the books on the GoogleBooks site, save books to their library and remove books from their library. This was my final homework project for the University of Kansas Coding Boot Camp. This application gives users a place to store books for future purchasing or reading. I learned a lot about how React works with a back-end server and a Mongoose database. Joining the three different technologies  was a very complicated process, but one I accomplished. This project stands out because of the styling and intuitiveness of the site. This project features search and save functions.
+
+This project has been added to my professional portfolio, the link can be found here:
+
+<a href="https://powerful-journey-53780.herokuapp.com/">Julie Schaub Professional Portfolio</a>
+
+The link to the deployed app can be found here:
+
+<a href="https://vast-peak-23165.herokuapp.com/">Google Books Library</a>
+</p><br>
 <a href="#top" id="start">(Back to Top of Page)</a><br>
 <br>
 <hr color= "slateblue" noshade>
