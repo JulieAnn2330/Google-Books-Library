@@ -35,7 +35,7 @@
 
 <h3 id='techology'>Technologies Used</h3>
 <p>This project incoporates the following tecnologies:<br>
-API Calls,Axios,Bootstrap,CSS,Heroku,HTML,JavaScript,mongoDB,node.js</p><br>
+API Calls, Axios, Bootstrap, CSS, Heroku, HTML, JavaScript, mongoDB, node.js, React</p><br>
 <a href="#top" id="start">(Back to Top of Page)</a><br>
 <br>
 <hr color= "slateblue" noshade>
