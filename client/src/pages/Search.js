@@ -10,13 +10,11 @@ class Search extends Component {
     books: [],
     bookSearch: "",
     savedBooks: [],
-    screenWidth: window.innerWidth,
     searched: ""
   };
 
   componentDidMount() {
     this.loadSavedBooks();
-    window.addEventListener('resize', this.updateDimensions);
   }
 
   checkIfSaved = googleId => {
@@ -31,10 +29,6 @@ class Search extends Component {
       if (this.state.savedBooks[i].googleId === googleId) return API.getDate(this.state.savedBooks[i]._id);
     }
     return null;
-  }
-
-  updateDimensions = () => {
-    this.setState({screenWidth: window.innerWidth});
   }
 
   loadSavedBooks = () => {
@@ -128,8 +122,6 @@ class Search extends Component {
                         clickEvent={this.checkIfSaved(book.id)
                           ? this.deleteSavedBook
                           : this.handleSave}
-                        date={this.checkSavedDate(book.id)}
-                        screenWidth={this.state.screenWidth}
                       />
                     );
                   })}
