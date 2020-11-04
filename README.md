@@ -8,7 +8,7 @@
 <body>
 <div id = "top">
 
-<h2>Google Book Library</h2> <a href="#license"><img src= "https://img.shields.io/badge/License-MIT-blue.svg"></a><br>
+<h2>Google Books Library</h2> <a href="#license"><img src= "https://img.shields.io/badge/License-MIT-blue.svg"></a><br>
 
 <hr color= "slateblue" noshade>
 
@@ -30,7 +30,7 @@
 
 This project has been added to my professional portfolio, the link can be found here:
 
-<a href="https://powerful-journey-53780.herokuapp.com/">Julie Schaub Professional Portfolio</a>
+<a href="https://julieann2330.github.io/jschaub-portfolio/">Julie Schaub Professional Portfolio</a>
 
 The link to the deployed app can be found here:
 
