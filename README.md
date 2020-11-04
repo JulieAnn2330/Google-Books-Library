@@ -83,3 +83,8 @@ Please make sure to update tests as appropriate.</p><br>
     
 </body>
 </html> 
+
+![homePage](https://user-images.githubusercontent.com/64329660/98133350-195ce700-1e83-11eb-8e8b-1289b2356da7.PNG)
+![view](https://user-images.githubusercontent.com/64329660/98133366-1e219b00-1e83-11eb-9e36-d430c87ab505.PNG)
+![saved](https://user-images.githubusercontent.com/64329660/98133375-211c8b80-1e83-11eb-8c85-ffc6e5dafd5b.PNG)
+![atlas](https://user-images.githubusercontent.com/64329660/98133382-24177c00-1e83-11eb-9226-a340909558ca.PNG)
